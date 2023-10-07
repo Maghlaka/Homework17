@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+}
+
+header .navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .navbar-nav .nav-item{
+    padding: 20px 15px;
+}
+header .navbar-nav .bellaria{
+    padding-top: 0px;
+}
+main .slider{
+    position: relative;
+    z-index: 3;
+    margin-top: -130px;
+  
+}
+main .slider .carousel-inner{
+    width: 100%;
+    --mask:
+    radial-gradient(13.42px at 50% 18.00px,#000 99%,#0000 101%) calc(50% - 24px) 0/48px 51% repeat-x,
+    radial-gradient(13.42px at 50% -6px,#0000 99%,#000 101%) 50% 12px/48px calc(51% - 12px) repeat-x,
+    radial-gradient(13.42px at 50% calc(100% - 18.00px),#000 99%,#0000 101%) calc(50% - 24px) 100%/48px 51% repeat-x,
+    radial-gradient(13.42px at 50% calc(100% + 6.00px),#0000 99%,#000 101%) 50% calc(100% - 12px)/48px calc(51% - 12px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+   
+}
+main .bellaria-text div{
+    background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/revslider/default/slider_bg_1.png);
+}
+main .card-area{
+    background-position: center;
+    background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/547147222.jpg?id=223);
+    width: 100%;
+    height: 750px;
+    margin-top: -30px;
+    opacity: 0.25;
+    position: absolute;
+    
+   
+}
+main  .cards img{
+    padding: 20px;
+    
+    margin: auto;
+    width: 221px;
+    height: auto;
+}
+main  .cards{
+
+    width: 62%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 15px 0px;
+
+}
+main .card-area .cards .cakes{
+    width: 62%;
+    margin: auto;
+}
+main  .cards .card{
+    
+    background: transparent;
+    border: none;
+    margin-top: 30px;
+}
+
+.magic{
+    position: relative;
+    width: 100%;
+    height: 720px;
+    background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/516360906.jpg?id=188);
+    object-fit: cover;
+    margin-top: 60px;
+    --mask:
+    radial-gradient(54.12px at 50% 75.90px,#000 99%,#0000 101%) calc(50% - 66px) 0/132px 100%,
+    radial-gradient(54.12px at 50% -42.9px,#0000 99%,#000 101%) 50% 33px/132px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+.magic article{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #36937D;
+    opacity: 0.8;
+}
+.magic article .logo{
+    width: 122px;
+    height: 122px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.magic article div svg{
+    width: 140px!important;
+}
+
+.magic article .magic-body{
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+    width: 60%;
+    text-align: center;
+}
+.our-creations{
+    padding-top: 20px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.our-creations .img img{
+    width: 221px;
+    height: 41px;
+}
+.our-creations .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.our-creations .images img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+main .services{
+    margin-top: 45px;
+    background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/674906526.jpg?id=254);
+    height: 670px;
+    opacity: 0.85;
+    --mask:
+    radial-gradient(54.12px at 50% 75.90px,#000 99%,#0000 101%) calc(50% - 66px) 0/132px 100%,
+    radial-gradient(54.12px at 50% -42.9px,#0000 99%,#000 101%) 50% 33px/132px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+main .services article{
+    width: 100%;
+    height: 100%;
+}
