@@ -68,6 +68,9 @@ main  .cards{
     padding: 50px 15px 0px;
 
 }
+main .cards{
+    align-items: center;
+}
 main .card-area .cards .cakes{
     width: 62%;
     margin: auto;
@@ -185,6 +188,7 @@ main .services article{
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .services .card svg:nth-child(2){
@@ -200,6 +204,8 @@ main .services article{
     text-align: center;
 }
 .recipes{
+    display: flex;
+    flex-direction: column;
     position: relative;
     height: 1000px;
     background-image: url(https://bellaria.cwsthemes.com/wp-content/uploads/2017/12/bg_med.jpg?id=490);
@@ -207,11 +213,80 @@ main .services article{
     
 }
 .recipes section{
+    display: flex;
+    justify-content: center;
     width: 90%;
     color: rebeccapurple;
     margin: 20px auto;
     text-align: center;
 }
 .recipes section #carouselExampleControlsNoTouching{
-    margin-top: 60px;
+    
+    margin-top: 100px;
+    position: absolute;
+}
+
+.clients {
+    height: 602px;
+    background-color: #FF91A4;
+    --mask:
+    radial-gradient(44.60px at 50% 63.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(44.60px at 50% -33px,#0000 99%,#000 101%) 50% 30px/120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+          margin-top: -60px;
+}
+.clients .carousel{
+    color: #fff;
+    width: 50%;
+    margin: auto;
+}
+.clients .carousel-dark{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.clients .carousel-dark h1{
+    margin-top: 100px;
+}
+.clients .carousel img{
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.clients .carousel  .carousel-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.clients .carousel .client{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.prices .prices-cake{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.prices .prices-cards{width: 100%;
+margin: auto;
+display: flex;
+gap: -5px;
+flex-wrap: wrap;
+justify-content: space-around;}
+.prices .prices-cards .card{
+    border: 3px solid 5fcac7;
+    border-radius: 10px;
+
 }
